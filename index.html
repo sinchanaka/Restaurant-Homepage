@@ -1,0 +1,260 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Responsive Food delivery service</title>
+    <link href="style.css" text="text/css" rel="stylesheet">
+    <!-- Adding google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+     <!-- Adding ion icons-->
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+     <div class="sidebar">
+        <!-- logo-->
+         <div class="logo"><h3>FoodTime</h3></div>
+         <div class="sidebar-menu">
+            <a href="#"><ion-icon name="home"></ion-icon>Home</a>
+            <a href="#"><ion-icon name="receipt"></ion-icon>Bills</a>
+            <a href="#"><ion-icon name="wallet"></ion-icon>Wallet</a>
+            <a href="#"><ion-icon name="notifications-circle"></ion-icon>Notifications</a>
+            <a href="#"><ion-icon name="chatbubbles"></ion-icon>Contact Us</a>
+            <a href="#"><ion-icon name="settings"></ion-icon>Settings</a>
+         </div>
+         <div class="sidebar-logout">
+            <a href="#"><ion-icon name="log-out"></ion-icon>Logout</a>
+         </div>
+     </div>
+     <!-- main-->
+      <div class="main">
+         <!-- main navbar-->
+          <div class="main-navbar">
+            <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+            <div class="search">
+               <input type="text" placeholder="What you want to eat?">
+               <button class="search-button">Search</button>
+            </div>
+            <div class="profile">
+               <a class="cart" href="#"><ion-icon name="cart-outline"></ion-icon></a>
+               <a class="user" href="#"><ion-icon name="person-outline"></ion-icon></a>
+            </div>
+
+
+          </div>
+          <!--Main highlights-->
+          <div class="main-highlights">
+            <div class="main-header">
+               <h2 class="main-title">Recommendation</h2>
+               <div class="main-arrow">
+                  <ion-icon class="back" name="chevron-back-circle-outline"></ion-icon>
+                  <ion-icon class="next" name="chevron-forward-circle-outline"></ion-icon>
+               </div>
+            </div>
+            <div class="highlight-wrapper">
+               <div class="highlight-card">
+                  <img class="highlight-img" src="image/salad.jpg">
+                  <div class="highlight-desc">
+                     <h4>Fruit Salad</h4>
+                     <p>$42.5</p>
+                  </div>
+               </div>
+               
+               <div class="highlight-card">
+                  <img class="highlight-img" src="image/cafe_latte.jpg">
+                  <div class="highlight-desc">
+                     <h4>Cafe Latte</h4>
+                     <p>$53.90</p>
+                  </div>
+               </div>
+               <div class="highlight-card">
+                  <img class="highlight-img" src="image/steak.jpg">
+                  <div class="highlight-desc">
+                     <h4>Premium Steak</h4>
+                     <p>$70.00</p>
+                  </div>
+               </div>
+               <div class="highlight-card">
+                  <img class="highlight-img" src="image/burger.jpg">
+                  <div class="highlight-desc">
+                     <h4>big Burger</h4>
+                     <p>$100.15</p>
+                  </div>
+               </div>
+            </div>
+          </div>
+          <!--Main menus-->
+          <div class="main-menu">
+            <!--Main filter-->
+            <div class="main-filter">
+               <div>
+                  <h2 class="menu-title">Menu category</h2>
+                  <div class="main-arrow">
+                    <ion-icon class="back" name="chevron-back-circle-outline"></ion-icon>
+                    <ion-icon class="next" name="chevron-forward-circle-outline"></ion-icon>
+                  </div>
+               </div>
+               <div class="filter-wrapper">
+                  <div class="filter-card">
+                     <div class="filter-icon">
+                        <ion-icon name="restaurant-outline"></ion-icon>
+                     </div>
+                     <p>All Menus</p>
+                  </div>
+                  <div class="filter-card">
+                     <div class="filter-icon">
+                        <ion-icon name="fast-food-outline"></ion-icon>
+                     </div>
+                     <p>Burger</p>
+                  </div>
+                  <div class="filter-card">
+                     <div class="filter-icon">
+                        <ion-icon name="pizza-outline"></ion-icon>
+                     </div>
+                     <p>Pizza</p>
+
+                  </div>
+                  <div class="filter-card">
+                     <div class="filter-icon">
+                        <ion-icon name="wine-outline"></ion-icon>
+                     </div>
+                     <p>Wine</p>
+                  </div>
+                  <div class="filter-card">
+                     <div class="filter-icon">
+                        <ion-icon name="cafe-outline"></ion-icon>
+                     </div>
+                     <p>Coffee</p>
+                  </div>
+                  <div class="filter-card">
+                     <div class="filter-icon">
+                        <ion-icon name="ice-cream-outline"></ion-icon>
+                     </div>
+                     <p>Ice-cream</p>
+                  </div>
+                  <div class="filter-card">
+                     <div class="filter-icon">
+                        <ion-icon name="fish-outline"></ion-icon>
+                     </div>
+                     <p>Sea food</p>
+                  </div>
+                  <div class="filter-card">
+                     <div class="filter-icon">
+                        <ion-icon name="nutrition-outline"></ion-icon>
+                     </div>
+                     <p>Healthy</p>
+                  </div>
+               </div>
+            </div>
+            <hr class="divider">
+            <!--List of food menus-->
+            <div class="main-detail">
+               <h2 class="main-title">Choose Order</h2>
+               <div class="detail-wrapper">
+                  <div class="detail-card">
+                     <img class="detail-image" src="image/seafood.jpg">
+                     <div class="detail-desc">
+                        <div>
+                           <h4 class="detail-name">Shriram soup</h4>
+                           <p class="detail-sub">it is one of the tastiest soup</p>
+                           <p class="price">$128.56</p>
+                        </div>
+                        <ion-icon class="detail-favorite" name="bookmark-outline"></ion-icon>
+                     </div>
+                  </div>
+                  <div class="detail-card">
+                     <img class="detail-image " src="image/burger.jpg">
+                     <div class="detail-desc">
+                        <div>
+                           <h4 class="detail-name">Burger</h4>
+                           <p class="detail-sub">the burger is tasty</p>
+                           <p class="price">$190.00</p>
+                        </div>
+                        <ion-icon class="detail-favorite" name="bookmark-outline"></ion-icon>
+                     </div>
+                  </div>
+                  <div class="detail-card">
+                     <img class="detail-image " src="image/salad.jpg">
+                     <div class="detail-desc">
+                        <div>
+                           <h4 class="detail-name">Fruit Salad</h4>
+                           <p class="detail-sub">Fruits are good for health</p>
+                           <p class="price">$90.00</p>
+                        </div>
+                        <ion-icon class="detail-favorite" name="bookmark-outline"></ion-icon>
+                     </div>
+                  </div>
+                  <div class="detail-card">
+                     <img class="detail-image " src="image/steak.jpg">
+                     <div class="detail-desc">
+                        <div>
+                           <h4 class="detail-name">Premium Steak</h4>
+                           <p class="detail-sub">the meat is fresh</p>
+                           <p class="price">$290.00</p>
+                        </div>
+                        <ion-icon class="detail-favorite" name="bookmark-outline"></ion-icon>
+                     </div>
+                  </div>
+                  <div class="detail-card">
+                     <img class="detail-image " src="image/cafe_latte.jpg">
+                     <div class="detail-desc">
+                        <div>
+                           <h4 class="detail-name">Cafe-Latte</h4>
+                           <p class="detail-sub">Good coffee changes the mood</p>
+                           <p class="price">$50.00</p>
+                        </div>
+                        <ion-icon class="detail-favorite" name="bookmark-outline"></ion-icon>
+                     </div>
+                  </div>
+                  <div class="detail-card">
+                     <img class="detail-image " src="image/chicken-biryani.jpg">
+                     <div class="detail-desc">
+                        <div>
+                           <h4 class="detail-name">Chicken-Biryani</h4>
+                           <p class="detail-sub">The biryani is just like made mom</p>
+                           <p class="price">$350.00</p>
+                        </div>
+                        <ion-icon class="detail-favorite" name="bookmark-outline"></ion-icon>
+                     </div>
+                  </div>
+                  <div class="detail-card">
+                     <img class="detail-image " src="image/chicken-leg-fry.jpg">
+                     <div class="detail-desc">
+                        <div>
+                           <h4 class="detail-name">Chicken-Leg-fry</h4>
+                           <p class="detail-sub">Made with love</p>
+                           <p class="price">$250.00</p>
+                        </div>
+                        <ion-icon class="detail-favorite" name="bookmark-outline"></ion-icon>
+                     </div>
+                  </div>
+                  <div class="detail-card">
+                     <img class="detail-image " src="image/pizza.jpg">
+                     <div class="detail-desc">
+                        <div>
+                           <h4 class="detail-name">Pizza</h4>
+                           <p class="detail-sub">with lot of cheese</p>
+                           <p class="price">$300.00</p>
+                        </div>
+                        <ion-icon class="detail-favorite" name="bookmark-outline"></ion-icon>
+                     </div>
+                  </div>
+                  <div class="detail-card">
+                     <img class="detail-image " src="image/juice.jpg">
+                     <div class="detail-desc">
+                        <div>
+                           <h4 class="detail-name">Juice</h4>
+                           <p class="detail-sub">made with fresh juice</p>
+                           <p class="price">$50.00</p>
+                        </div>
+                        <ion-icon class="detail-favorite" name="bookmark-outline"></ion-icon>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      
+</head>
+<body>
+    
+</body>
+</html>
